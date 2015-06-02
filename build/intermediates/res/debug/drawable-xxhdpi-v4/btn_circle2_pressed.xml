@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#ffa9a9a9"/>
+    <size android:height="50dp"    android:width="150dp"/>
+    <corners android:radius="6dp" />
+    <stroke android:width="1px" android:color="#ffb4b4b4" />
+
+</shape><!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/drawable-xxhdpi/btn_circle2_pressed.xml -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="butt_log">Login</string>
+    <string name="butt_reg">Registro</string>
+    <string name="confirmpass">Confirmar Password:</string>
+    <string name="create_group">Creación de Grupo</string>
+    <string name="createbutt">Crear</string>
+    <string name="desc_group">Descripción Grupo:</string>
+    <string name="logintext">Login</string>
+    <string name="mailreg">Mail:</string>
+    <string name="msgtxt">Texto del mensaje:</string>
+    <string name="newgroup">Nombre Grupo:</string>
+    <string name="newmsg_send">Enviar</string>
+    <string name="pass_log">Password:</string>
+    <string name="passreg">Password:</string>
+    <string name="regbutt">Registro</string>
+    <string name="report">Reportar</string>
+    <string name="sendongroup">Enviar</string>
+    <string name="titlemsg">Titulo del mensaje:</string>
+    <string name="txtreg">Registro</string>
+    <string name="urltext">Pon una url:</string>
+    <string name="userongroup">UserID paquito</string>
+    <string name="usertxt">Usuario:</string>
+    <string name="usuario_log">Usuario:</string>
+    <!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/values-v11/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="add_group">Crear grupo</string>
+    <string name="add_message">Crear mensaje</string>
+    <string name="app_name">Shouter</string>
+    <string name="button_send">Enviar</string>
+    <string name="button_subs">Suscribirse</string>
+    <string name="button_write">Responder</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="edit_profile">Editar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mail_user">Email: </string>
+    <string name="name_user">Nickname: </string>
+    <string name="no_text"> Default </string>
+    <string name="photo_user">Imagen: </string>
+    <string name="title_activity_login">Shouter</string>
+    <string name="title_activity_new_group">NewgroupActivity</string>
+    <string name="title_activity_new_message">NewMessageActivity</string>
+    <string name="title_activity_register">Register</string>
+    <!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+</resources>

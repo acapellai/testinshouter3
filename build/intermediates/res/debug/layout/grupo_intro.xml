@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/no_text"
+        android:id="@+id/groupTittle"
+        android:textColor="#ffffff"
+
+        android:textSize="40sp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupTittle"
+        android:id="@+id/relativeLayout">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/no_text"
+            android:id="@+id/nMessages"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/no_text"
+            android:id="@+id/nMembers"
+            android:layout_toLeftOf="@+id/nMessages"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_circle2"
+            android:text="@string/button_subs"
+            android:id="@+id/button"
+            android:layout_toRightOf="@+id/nMessages"
+            android:layout_marginLeft="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="10sp"
+            android:onClick="onClickSubscribe" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/layout/grupo_intro.xml -->

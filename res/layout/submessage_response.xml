@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MensajeActivity"
+
+
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/relati">
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/user"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/userMessage"
+        android:layout_alignStart="@+id/userMessage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/no_text"
+        android:id="@+id/dateMessage"
+        android:textSize="10sp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_alignBottom="@drawable/flechita"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/no_text"
+        android:id="@+id/messageText"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/dateMessage"
+        android:layout_alignStart="@+id/dateMessage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/no_text"
+        android:id="@+id/userMessage"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="11sp"
+        android:layout_marginLeft="50dp" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@drawable/flechita"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Alex\Downloads\testinshouter 3\testinshouter 3\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Alex\Downloads\testinshouter 3\testinshouter 3\build\intermediates\pre-dexed\debug\picasso-2.5.2-f601b0dfd854cd68e89dad17c4ba8f19629dccb8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Downloads\testinshouter 3\testinshouter 3\libs\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Alex\Downloads\testinshouter 3\testinshouter 3\build\intermediates\pre-dexed\debug\gson-2.3.1-19478cf4653c1b0ee74d497d880ecd301e976139.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alex\Downloads\testinshouter 3\testinshouter 3\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="C:\Users\Alex\Downloads\testinshouter 3\testinshouter 3\build\intermediates\pre-dexed\debug\android-support-v4-3f2975262bfb78c59875d61cbf65b69f697fada1.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logintext">Login</string>
+    <string name="usuario_log">Usuario:</string>
+    <string name="pass_log">Password:</string>
+    <string name="butt_log">Login</string>
+    <string name="butt_reg">Registro</string>
+    <string name="create_group">Creación de Grupo</string>
+    <string name="newgroup">Nombre Grupo:</string>
+    <string name="desc_group">Descripción Grupo:</string>
+    <string name="createbutt">Crear</string>
+    <string name="titlemsg">Titulo del mensaje:</string>
+    <string name="msgtxt">Texto del mensaje:</string>
+    <string name="newmsg_send">Enviar</string>
+    <string name="txtreg">Registro</string>
+    <string name="usertxt">Usuario:</string>
+    <string name="passreg">Password:</string>
+    <string name="mailreg">Mail:</string>
+    <string name="confirmpass">Confirmar Password:</string>
+    <string name="regbutt">Registro</string>
+    <string name="sendongroup">Enviar</string>
+    <string name="urltext">Pon una url:</string>
+    <string name="userongroup">UserID paquito</string>
+    <string name="report">Reportar</string>
+</resources>

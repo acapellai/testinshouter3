@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MensajeActivity"
+
+
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/relati">
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/user"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/no_text"
+        android:id="@+id/messageTittle"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="15sp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/no_text"
+        android:id="@+id/dateMessage"
+        android:layout_below="@+id/messageTittle"
+        android:layout_alignLeft="@+id/messageTittle"
+        android:layout_alignStart="@+id/messageTittle"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/no_text"
+        android:id="@+id/messageText"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/dateMessage"
+        android:layout_alignStart="@+id/dateMessage"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/no_text"
+        android:id="@+id/userMessage"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/no_text"
+        android:id="@+id/nSubMessages"
+        android:layout_below="@+id/messageText"
+        android:layout_alignLeft="@+id/messageText"
+        android:layout_alignStart="@+id/messageText"
+        android:layout_marginTop="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/button_write"
+        android:id="@+id/textView6"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/nSubMessages"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/layout/menssage_responses.xml -->

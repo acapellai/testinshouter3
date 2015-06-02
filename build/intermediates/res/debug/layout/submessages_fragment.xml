@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="454dp"
+        android:id="@+id/listView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_sub"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sendongroup"
+            android:id="@+id/send_sub"
+            android:background="@drawable/btn_circle"
+            android:onClick="onClickSubmessage" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="right" />
+
+</LinearLayout><!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/layout/submessages_fragment.xml -->

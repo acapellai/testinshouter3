@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.shouter.activities.LoginActivity"
+    android:id="@+id/login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/logintext"
+        android:id="@+id/textView"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textColor="@android:color/secondary_text_light"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_log"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_marginLeft="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pass_log"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17"
+        android:layout_toRightOf="@+id/textView17" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/butt_log"
+        android:id="@+id/button3"
+        android:onClick="onClickLogin"
+
+        android:background="@drawable/btn_circle"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/butt_reg"
+        android:id="@+id/button4"
+        android:onClick="onClickRegister"
+        android:background="@drawable/btn_circle"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5" />
+
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Alex/Downloads/testinshouter%203/testinshouter%203/res/layout/activity_login.xml -->

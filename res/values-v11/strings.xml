@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shouter</string>
+    <string name="no_text"> Default </string>
+    <string name="button_send">Enviar</string>
+    <string name="button_subs">Suscribirse</string>
+    <string name="button_write">Responder</string>
+    <string name="name_user">Nickname: </string>
+    <string name="mail_user">Email: </string>
+    <string name="photo_user">Imagen: </string>
+    <string name="edit_profile">Editar</string>
+
+    <string name="add_group">Crear grupo</string>
+    <string name="add_message">Crear mensaje</string>
+    <string name="title_activity_login">Shouter</string>
+    <string name="title_activity_register">Register</string>
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="title_activity_new_message">NewMessageActivity</string>
+    <string name="title_activity_new_group">NewgroupActivity</string>
+
+</resources>
